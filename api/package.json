@@ -1,0 +1,18 @@
+{
+  "name": "appchatclient",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon *",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
